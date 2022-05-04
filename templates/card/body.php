@@ -3,7 +3,7 @@
         <div class="container">
             <div class="d-flex bd-highlight">
                 <div class="me-auto p-2 bd-highlight">
-                    <input type='checkbox' class='delete-checkbox'>
+                    <input type='checkbox' class='delete-checkbox' data-sku="<?php echo $product->getSKU(); ?>">
                 </div>
                 <div class="p-2 bd-highlight">
                     <h6><?php echo get_class($product); ?></h6>

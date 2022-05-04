@@ -15,7 +15,6 @@ $buttons = [
         'text' => 'MASS DELETE',
         'class' => 'nav-link link-dark',
         'id' => 'delete-product-btn',
-        'href' => 'massdelete.php',
     ]
 ];
 
@@ -36,21 +35,7 @@ $products = $model->getProducts();
     }
     ?>
 </div>
-<!--<script>
-      $.ajax({
-        method: "POST",
-        url: "index.php",
-        data: { name: "John", location: "Boston" }
-             })
-        
-        $.ajax({ 
-        url: "index.html",
-        cache: false
-            })
-         .done(function( html ) {
-         $( "#results" ).append( html );
-           });
-</script>-->
 
+<script src="main.js"></script>
 
 <?php require_once('footer.php'); ?>

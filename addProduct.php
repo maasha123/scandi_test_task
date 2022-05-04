@@ -22,19 +22,19 @@ $buttons = [
 <?php require_once('header.php'); ?>
 
 <div>
-    <form class="mx-auto" style="width: 60%" id="product_form" method="POST" action="post.php">
+    <form class="mx-auto" style="width: 60%" id="product_form" method="POST" action="add.php">
 
         <div class="form-group row mb-3">
             <label class="col-sm-2 col-form-label">SKU</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="sku" name="sku" placeholder="Letters, numbers and dashes only (8-10)" minlength="8" maxlength="10"required>
+                <input type="text" class="form-control" id="sku" name="sku"  placeholder="Letters, numbers and dashes only (8-10)" minlength="8" maxlength="10" required>
             </div>
         </div>
 
         <div class="form-group row mb-3">
             <label class="col-sm-2 col-form-label">Name</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Insert any letters and numbers" minlength="3" maxlength="10" required>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Insert any letters and numbers" minlength="3" maxlength="50" required>
             </div>
         </div>
 
@@ -73,16 +73,6 @@ $buttons = [
     </form>
 </div>
 
-<script>
-$('#productType').change(function() {
-    var type = $(this).val().toLowerCase();
-    console.log(type);
-
-    if (type == '')
-        $("#attributes").empty();
-    else
-        $("#attributes").load(`templates/input/${type}.php`);
-});
-</script>
+<script src="main.js"></script>
 
 <?php require_once('footer.php'); ?>

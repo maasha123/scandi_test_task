@@ -6,9 +6,3 @@
         <input type="number" min="0" step="0.01" class="form-control" id="size" name="size" required>
     </div>
 </div>
-<div class="form-group row">
-    <div class="col-md-3 mt-2">
-        <span class="form-text font-weight-bold">Please, enter DVD size in MB</span>
-    </div>
-</div>
-

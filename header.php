@@ -47,8 +47,6 @@ require_once('classes/tracer.php');
 
                             echo $html;
                         }
-
-                      
                         ?>
                     </ul>
                 </div>
