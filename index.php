@@ -1,4 +1,5 @@
 <?php
+
 require_once('classes/productsModel.php');
 
 $title = 'Product List';
@@ -7,6 +8,7 @@ $buttons = [
     [
         'tag' => 'a',                       // Сам тег, на выбор: <button>, <a>, <input>, etc.
         'text' => 'ADD',                    // Вставляется в тег, по сути innerHTML
+        // Атрибуты, создавай сколько хочешь, лишь бы подошли
         'class' => 'nav-link link-dark',
         'href' => 'addproduct.php',
     ],

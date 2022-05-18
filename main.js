@@ -7,7 +7,6 @@ $('#productType').change(function() {
     else
         $("#attributes").load(`templates/input/${type}.php`);
 });
-
 $(document).ready(() => {
     $("#delete-product-btn").click(() => {
         let selected = $(".delete-checkbox:checked");

@@ -1,7 +1,7 @@
 {
-	_"autoload": {
+	"autoload": {
 		"psr-4": {
-//путь
+			"data\\htdocs\test\\":"classes/"
 		}
 	}
 }

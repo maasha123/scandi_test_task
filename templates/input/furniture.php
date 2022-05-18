@@ -1,3 +1,4 @@
+
 <input type="text" value="Furniture" name="type" hidden>
 
 <div class="form-group row mb-3">
@@ -20,3 +21,4 @@
         <input type="number" min="0" step="0.01" class="form-control" id="length" name="length" required>
     </div>
 </div>
+

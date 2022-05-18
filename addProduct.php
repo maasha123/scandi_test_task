@@ -27,14 +27,14 @@ $buttons = [
         <div class="form-group row mb-3">
             <label class="col-sm-2 col-form-label">SKU</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="sku" name="sku"  placeholder="Letters, numbers and dashes only (8-10)" minlength="8" maxlength="10" required>
+                <input type="text" class="form-control" id="sku" name="sku" placeholder="Letters, numbers and dashes only (8-10)" minlength="8" maxlength="10" required>
             </div>
         </div>
 
         <div class="form-group row mb-3">
             <label class="col-sm-2 col-form-label">Name</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Insert any letters and numbers" minlength="3" maxlength="50" required>
+                <input type="text" class="form-control" id="name" name="name"  placeholder="Insert any letters and numbers" minlength="3" maxlength="50" required>
             </div>
         </div>
 

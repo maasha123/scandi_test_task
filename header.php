@@ -1,5 +1,5 @@
 <?php
-require_once('classes/tracer.php');
+require __DIR__ . '/vendor/autoload.php'
 ?>
 
 <!DOCTYPE html>
