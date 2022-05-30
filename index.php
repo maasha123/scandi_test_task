@@ -1,6 +1,6 @@
 <?php
 
-require_once('classes/productsModel.php');
+require_once('classes/ProductsModel.php');
 
 $title = 'Product List';
 
@@ -22,6 +22,7 @@ $buttons = [
 
 $model = new ProductsModel();
 $products = $model->getProducts();
+(new FrontController)->route();
 
 ?>
 
@@ -38,6 +39,6 @@ $products = $model->getProducts();
     ?>
 </div>
 
-<script src="main.js"></script>
+<script src="js/main.js"></script>
 
 <?php require_once('footer.php'); ?>
